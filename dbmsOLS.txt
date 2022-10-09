@@ -1,0 +1,23 @@
+ENTITIES
+-Students
+-Admin
+-Books
+
+ATRIBUTE STUDENTS
+-Sudent_ID
+-Name
+-Course/Grade level
+-LibraryCard_ID
+
+ATTRIBUTES ADMIN
+-Admin_ID
+-Name
+-Password
+-Position
+
+ATTRIBUTES BOOKS
+-book_ID
+-book_code
+-title
+-author
+-date_publish

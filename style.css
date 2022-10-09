@@ -1,0 +1,207 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+    --body-font: 'Work Sans', sans-serif;
+    --navbar-brand: 'Bebas Neue', cursive;
+    --qoute: 'Poppins', sans-serif;
+    --bg-image: url("https://images.unsplash.com/photo-1591109864300-46c417fa0475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-decoration-color: #212121;
+    font-family: var(--body-font);
+    background: #D6E5FA;
+}
+
+/*NAVBAR CSS*/
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+.cover-img {
+    padding-top: 5%;
+    margin-left: 22.4rem;
+    position: relative;
+    width: 30%;
+    height: 35rem;
+}
+
+.cert-img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 2s;
+}
+
+.cert-img:hover{
+    position: absolute;
+    z-index: 1;
+    transform: scale(2);
+}
+
+.carou-cert {
+    width: 600px;
+    margin-left: 1rem;
+}
+.center {
+    margin-left: 9rem;
+}
+
+.about {
+    margin-left: 10rem;
+    width: 30rem;
+    height: 30rem;
+}
+.about-img {
+    width: 35%;
+    height: 30rem;
+}
+.icon-wa, .icon-li, .icon-mail {
+    color: #100720;
+}
+.icon-wa:hover {
+    color: #3CCF4E;
+}
+.icon-mail:hover {
+color: #eb5353;
+}
+.icon-li:hover {
+    color: #1363DF;
+}
+
+.web1, .web2, .web3, .web4, .web5, .web6{
+    position: relative;
+}
+.img{
+    display: block;
+}
+#myImg1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+.img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 90px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.40s;
+}
+.img_overlay:hover {
+    opacity: 1;
+}
+.img_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.40s;
+}
+.img_overlay:hover > * {
+    transform: translateY(0px);
+}
+
+.card-text{
+align-items: center;
+}
+.btn1 {
+    margin-left: 230px;
+}
+.web_dev {
+    padding: 3%;
+    border: 1px;
+    background-color: #97D2EC;
+    width: 420px;
+    height: 300px;
+    border-radius: 2%;
+}
+.title-webdev, .text-footer {
+    font-family: var(--qoute);
+    font-size: 2.5em;
+}
+
+.text-footer {
+    font-family: var(--qoute);
+    font-size: 1.5em;
+}
+footer {
+    background-color: #97D2EC;
+}
+
+/*TITLE CSS*/
+.title-cert, .hero-qoute, .subtitle-about, .title-web, .title-about {
+    font-family: var(--qoute);
+    font-size: 3rem;
+}
+.subtitle-qoute {
+    font-size: 1.3rem;
+}
+/*CONTAINER CSS*/
+.container {
+    padding-top: 3%;
+}
+
+#knowledge, #about, #haha, #my-websites {
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .cover-img {
+margin-left: 14rem;
+    }
+
+    .hero-qoute {
+        font-size: 2rem;
+    }
+
+    .btn1 {
+        margin-left: -0.1rem;
+    }
+    .card-text{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: lighter;
+        }
+    .web {
+            margin-left: 10rem;
+        }
+.nav-brand {
+    width: 13% !important;
+}
+.navbar-toggler {
+    width: 3.5rem !important;
+height: 3rem !important;
+}
+.hero-qoute {
+    font-size: 2rem;
+}
+.cover-img {
+    width: 50%;
+    height: 35rem;
+    padding-right: 5rem;
+}
+.text-center {
+    position: relative;
+}
+
+.web_dev {
+    padding: 5%;
+    border: 1px;
+    background-color: #97D2EC;
+    width: 330px;
+    height: 320px;
+    border-radius: 2%;
+}
+}
